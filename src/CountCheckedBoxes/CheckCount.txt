@@ -1,0 +1,9 @@
+function checkboxes(){
+    var OPT = document.getElementsByTagName("input"),
+    count = 0;
+    for (var i=0; i<OPT.length; i++) {
+    if (OPT[i].type === "checkbox" && OPT[i].checked === true){
+        count++;
+        alert(count);
+    }
+}}

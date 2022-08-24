@@ -1,0 +1,22 @@
+$(function opt() {
+        if ($("#optIn").is(":OptInForBreakfast")) {
+            $("#optIn").value="Yes"
+            $("#optIn").click(function() { this.value="No" })
+        } else {
+            $("#optIn").value="No"
+            $("#optIn").click(function() { this.value="Yes" })
+        }
+      else if
+      
+       ($("#optIn").is(":OptInForSnacks")) {
+            $("#optIn").value="Yes"
+            $("#optIn").click(function() { this.value="No" })
+        } else {
+            $("#optIn").value="No"
+            $("#optIn").click(function() { this.value="Yes" })
+        }
+
+
+});
+
+opt();
